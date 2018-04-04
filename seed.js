@@ -57,15 +57,15 @@ let employment = [
 
 let education = [
     {
-        school: "Northwestern University",
+        name: "Northwestern University",
         location: "Chicago, IL",
         program: "Full-Stack Web Development Boot Camp",
-        completionDate: "2017",
+        date: "2017",
     },
     {
-        school: "Northern Illinois University",
+        name: "Northern Illinois University",
         location: "Dekalb, IL",
         program: "B.A. Philosophy",
-        completionDate: "2007",
+        date: "2007",
     },
 ];

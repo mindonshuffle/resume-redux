@@ -1,0 +1,67 @@
+body {
+    font-size: 10pt;
+    font-family: 'Nunito Sans', sans-serif;;
+    line-height: 1.5;
+    position: relative;
+    width: 7in;
+    margin: auto;
+}
+
+#profile-section {
+    text-align: center;
+}
+
+#skills {
+    font-weight: bold;
+}
+
+#location {
+    text-align: center;
+}
+
+h1 {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 10pt;
+    font-weight: bold;    
+}
+
+.project-name {
+    font-weight: bold;
+}
+
+ul {
+    list-style: disc outside;
+    margin-left: 3em;
+}
+
+.experience-name {
+    font-weight: bold;
+}
+
+.experience-title {
+    font-style: italic;
+}
+
+.education-name, .education-location {
+    font-weight: bold;
+}
+
+.education-program, .education-date {
+    font-style: italic;
+}
+
+
+.container {
+    min-width: 100%;
+    max-width: 100%
+}
+
+@media print {
+    @page {
+        margin: 1cm, 2cm;
+    } 
+}
